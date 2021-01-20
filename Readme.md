@@ -5,7 +5,7 @@ Proyecto base de ejemplo de aplicación angular.
 ```
 export const HEROES: Hero[] = [
   { id: 11, name: 'Dr Nice' },
-  { id: 12, name: 'Narco' },
+  { id: 12, name: 'Goku' },
   { id: 13, name: 'Bombasto' },
   { id: 14, name: 'Celeritas' },
   { id: 15, name: 'Magneta' },
@@ -23,13 +23,13 @@ Como se puede ver ahora mismo se están mostrando como Top Heroes a: Narco, Bomb
 Todos los ejercicios salvo el último, se pueden resolver con una linea de código.
 
 1. Dashboard: La lista de Top Heroes en la pantalla de dashboard deberia mostrar **solo los 3 primeros elementos de la lista**.
-   *(Resultado esperado => Dr Nice, Narco y Bombasto)*
+   *(Resultado esperado => Dr Nice, Goku y Bombasto)*
 
 2. Dashboard: Las lista de Top Heroes deberá aparecer con el nombre del heroe seguido de su **ID entre parentesis**.
-   *(Resultado esperado => De Nice (11), Narco (12), Bombasto (13))*
+   *(Resultado esperado => De Nice (11), Goku (12), Bombasto (13))*
 
 3. Heroes: Implementar una validación en el alta de nuevos heroes donde **no permita** dar de alta Heroes que comiencen por **"A"**.
-   *(Resultado esperado => Añadir "Aquaman" no será posible, pero sí "Goku")*
+   *(Resultado esperado => Añadir "Aquaman" no será posible, pero sí "Batman")*
 
 4. Dashboard: La lista de top heroes en la pantalla de dashboard solo deberian aparecer aquellos cuya **longitud de su nombre sea igual o mayor a 5 letras**.
    *(Resultado esperado => Dr Nice (11), Bombasto (12) y Celeritas (14))*
